@@ -4,7 +4,7 @@ body {
     margin: 0;
     padding: 0;
     background-image: url('background.jpg'); /* Path to the image */
-    background-size: 1500px 800px; /* Stretches the image */
+    background-size: 2000px 1000px; /* Stretches the image */
     background-position: center; /* Centers the image */
     background-repeat: no-repeat;
 }
