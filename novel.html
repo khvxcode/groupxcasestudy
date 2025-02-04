@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Novel Details</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body onload="checkLogin(); loadNovelDetails();">
+    <header>
+        <h1 id="novel-title"></h1>
+        <button class="logout-btn" onclick="logout()">Logout</button>
+        <button onclick="bookmarkNovel()" id="bookmark-btn">⭐ Bookmark</button>
+    </header>
+
+    <main>
+        <p id="novel-description"></p>
+        <h3>Chapters:</h3>
+        <ul id="chapter-list"></ul>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
